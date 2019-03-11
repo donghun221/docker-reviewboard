@@ -4,8 +4,8 @@ DBPASSWORD="${DBPASSWORD:-reviewboard}"
 DB="${DB:-reviewboard}"
 
 # Get these variables either from DBPORT and DBHOST
-DBPORT="${DBPORT:-$( echo "${DB_PORT_5432_TCP_PORT:-5432}" )}"
-DBHOST="${DBHOST:-$( echo "${DB_PORT_5432_TCP_ADDR:-127.0.0.1}" )}"
+DBPORT="${DBPORT:-$( echo "${DB_PORT_3306_TCP_PORT:-3306}" )}"
+DBHOST="${DBHOST:-$( echo "${DB_PORT_3306_TCP_ADDR:-10.0.2.3}" )}"
 
 # Get these variable either from MEMCACHED env var, or from
 # linked "memcached" container.
