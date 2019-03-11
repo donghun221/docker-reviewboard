@@ -36,7 +36,6 @@ if [[ ! -d /var/www/reviewboard ]]; then
         --db-type=mysql \
         --db-name="$DB" \
         --db-host="$DBHOST" \
-        --db-port="$DBPORT" \
         --db-user="$DBUSER" \
         --db-pass="$DBPASSWORD" \
         --cache-type=memcached --cache-info="$MEMCACHED" \
