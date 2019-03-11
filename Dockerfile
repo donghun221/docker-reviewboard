@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-MAINTAINER igor.katson@gmail.com
+MAINTAINER dongxuny@gmail.com
 
 ARG RB_VERSION
 RUN apt-get update -y && \
