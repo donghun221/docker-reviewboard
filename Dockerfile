@@ -10,6 +10,10 @@ RUN apt-get update -y && \
         python-mysqldb \
         libmysqlclient-dev \
         mysql-client \
+        iputils-ping \
+        curl \
+        wget \
+        inetutils-traceroute \
         python-psycopg2 python-ldap \
         git-core mercurial subversion python-svn && \
         rm -rf /var/lib/apt/lists/*
