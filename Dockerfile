@@ -13,6 +13,7 @@ RUN apt-get update -y && \
         iputils-ping \
         curl \
         wget \
+        telnet \
         inetutils-traceroute \
         vim \
         python-psycopg2 python-ldap \
