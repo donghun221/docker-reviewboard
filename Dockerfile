@@ -14,6 +14,7 @@ RUN apt-get update -y && \
         curl \
         wget \
         inetutils-traceroute \
+        vim \
         python-psycopg2 python-ldap \
         git-core mercurial subversion python-svn && \
         rm -rf /var/lib/apt/lists/*
